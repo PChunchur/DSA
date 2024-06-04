@@ -67,7 +67,7 @@ class Solution:                                             #class solution
         return root
     
     if __name__ == '__main__':
-        t = int(input(strip()))
+        t = int(input().strip())
         for _ in range(t):
             s = input().strip()
             root = buildTree(s)
